@@ -1,0 +1,64 @@
+h2[class="subtitle"] {
+  color: steelblue;
+}
+
+.about-me {
+  color: rebeccapurple;
+}
+
+#about-me {
+  color: salmon;
+}
+
+/* li:nth-child(2) {
+  color: seagreen;
+} */
+
+/* #link:link {
+  color: steelblue;
+}
+
+#link:visited {
+  color: tomato;
+} */
+
+/* Colors any a after h2 */
+h2 + a {
+  color: violet;
+}
+
+/*Any button after h2 that belong to the same parent*/
+textarea ~ button {
+  color: yellowgreen;
+}
+
+/*Every single li */
+ul > li {
+  color: yellow;
+}
+
+ul li {
+  color: brown;
+}
+
+/*Images whose source start with the path*/
+
+/* img[src^="../images/"] {
+  border: 10px solid black;
+} */
+
+/*Images whose source end with this path*/
+
+/* img[src$="../images/"] {
+  border: 10px solid black;
+} */
+
+/*Images whose path conyains the expression anywhere*/
+img[src*="images"] {
+  border: 10px solid blue;
+}
+
+/*Things separated by white space like classes in this case*/
+h2[class~="article-subtitle"] {
+  background: chartreuse;
+}
