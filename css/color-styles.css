@@ -68,6 +68,31 @@ body {
   margin: 10px;
 }
 
+.container-item-1 {
+  order: 6;
+  flex: 1 1 100px;
+  align-self: start;
+}
+
+.container-item-2 {
+  order: 5;
+  flex: 1 1 100px;
+}
+.container-item-3 {
+  order: 4;
+  flex: 1 1 100px;
+  align-self: flex-end;
+}
+.container-item-4 {
+  order: 1;
+  flex: 1 1 100px;
+  align-self: flex-start;
+}
+.container-item-5 {
+  order: 2;
+  flex: 1 1 100px;
+}
+
 .grid-container {
   background-color: aliceblue;
   margin: 10px;
@@ -104,4 +129,25 @@ body {
 
 .submit-button:hover {
   background: white;
+}
+
+.grid-item-1 {
+  background: #31587a;
+  grid-area: 2 / 1 / span 2 / span 3;
+}
+
+.grid-item-2 {
+  background: #e85a4d;
+}
+.grid-item-3 {
+  background: #4de866;
+}
+.grid-item-4 {
+  background: #e84dd1;
+}
+.grid-item-5 {
+  background: #4de3e8;
+}
+.grid-item-6 {
+  background: #ecf00a;
 }
